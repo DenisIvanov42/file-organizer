@@ -1,0 +1,21 @@
+# Virtual Environment
+.venv/
+venv/
+ENV/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Pytest Cache
+.pytest_cache/
+.phpunit.result.cache
+
+# IDE specific files (VS Code)
+.vscode/
+tempCodeRunnerFile.py
+
+# Local testing folder
+database/
