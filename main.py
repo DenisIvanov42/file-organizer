@@ -42,6 +42,6 @@ if __name__ == "__main__":
 
     my_mover = FileMover()
     
-    organizer = DirectoryOrganizer(".", EXTENSION_RULES, my_mover)
+    organizer = DirectoryOrganizer("./database", EXTENSION_RULES, my_mover)
     
     organizer.organize()
